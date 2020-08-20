@@ -1,0 +1,14 @@
+{
+	"id": "bcec809b-fac9-4d19-85a4-db4a3d7b8449",
+	"name": "RodamanDevelopment",
+	"values": [
+		{
+			"key": "url",
+			"value": "http://3.85.159.45:8042",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2019-09-17T10:29:17.836Z",
+	"_postman_exported_using": "Postman/7.5.0"
+}

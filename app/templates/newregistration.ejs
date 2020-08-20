@@ -1,0 +1,52 @@
+<html>
+    <body>
+        <table cellpadding="0" cellspacing="0" width="600" style='font: normal 12px arial'>
+            <tr id="header" style="color: #ffffff; font:bold 14px arial;">
+                <td><img style="padding: 5px;" src="<%= logo  %>" alt="<%= magazine_name  %>" width="250" /></td>
+                <td style="vertical-align: top;">
+                    <span style="color:#000000;"><%= magazine_name  %>
+</span><br/>
+                </td>
+            </tr>
+            <tr id="content" style="background-color: rgb(242, 249, 254); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(222, 221, 217); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(222, 221, 217); padding: 15px;">
+                <td colspan="2" style="padding: 10px;">
+                    <div style="background-color:#F2F9FE ; font-size: 13px;">
+                        <div> Hello <%= user_full_name  %>
+,</div>
+                        <br/>
+                        <div> Your e-mail address (<%= webUserName  %>
+) has just been registered on <%= magazine_name  %>
+.<br /><br />
+Simply click the link below to validate your email address and enjoy all the benefits our site has to offer. </div>
+                        <br/>
+                        <h4><a href="<%= verify_link  %>
+" target='_blank'>Verify My Email </a> and Join <%= magazine_name  %>
+</h4>
+                        <br />
+                        <div>We hope you enjoy using <%= magazine_name  %>
+.</div>
+                        <br/>
+                        <div>Best Regards,</div>
+                        <br/>
+                        <div>The <%= magazine_name  %>
+ Team</div> 
+                    </div>
+                </td>
+            </tr>
+            <tr id="footer" style="background-color: #e6e3dd; font-size: 12px;">
+                <td colspan="2" style="padding:5px;">
+                    <p>This message is a referral from <%= magazine_name  %>
+</p>
+                    <p>
+                        Rodman Media<br />
+                        25 Philips Parkway, 2nd Floor <br />
+                        Montvale, NJ 07645<br />
+                        Tel: 201-825-2552 • Fax: 201-825-0553<br />
+                    </p>
+                    <p>Copyright &copy; <%= year  %>
+ All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
